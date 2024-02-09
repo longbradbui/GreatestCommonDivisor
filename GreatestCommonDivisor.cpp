@@ -12,8 +12,8 @@ int GreatestCommonDivisor(int a, int b)
 
 int main()
 {
-    int a = 30;
-    int b = 100;
+    int a = 4095;
+    int b = 2590;
     cout << "Greatest Common Divisor between " << a << " and " << b << ": " << GreatestCommonDivisor(a, b) << endl;
     return 0;
 }
